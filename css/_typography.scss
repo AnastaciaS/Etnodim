@@ -1,0 +1,77 @@
+
+
+body {
+    font-family: 'Raleway';
+  }
+
+li, ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-family: 'Rubik';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .list-nav-text, .list-nav-text-c {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 170%;
+  }
+
+  .list-nav-text-red {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 170%;
+    color: #DA1F39;
+  }
+
+  .list-nav-text-underline {
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000000;
+  }
+
+  @media (max-width: 600px) {
+    li, ul {
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: black;
+      }
+      
+      a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+      }
+      
+      h2 {
+        font-family: 'Rubik';
+        font-weight: 900;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #000000;
+      }
+  }

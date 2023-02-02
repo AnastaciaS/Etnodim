@@ -1,0 +1,121 @@
+.header__main {
+    display: block;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    
+    .header__main--nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 80px 40px 80px;
+        background-color: white;
+        .header__main--nav--menu {
+            display: flex;
+            gap: 30px;
+        }
+    }
+
+    .header__main__nav__menu-right {
+        display: flex;
+        gap: 30px;
+    }
+
+    .burger--menu {
+        display: none;
+    }
+    
+    .etnodim-logo {
+        max-width: 184px;
+        max-height: 48px; 
+    }
+     
+    .header__main__menu__item-highlighted-link {
+        font-weight: 700;
+        color: #DA1F39;
+    }
+
+    .nav__language__select {
+        border: none;
+        max-width: 50px;
+    }
+
+    .nav__language__select-option {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .nav__currency__select {
+        border: none;
+        max-width: 50px;
+        
+        .nav__currency__select-option {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+          }
+    }
+
+    .nav-search-icon {
+        width: 25px;
+        height: 25px;
+    }
+      
+    .nav-cart-icon {
+        width: 18px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .header__main {
+        display: block;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+
+        .burger--menu {
+            display: flex;
+
+            .burger-icon {
+                width: 20px;
+                height: 9px
+              }
+          }
+
+          .header__main--nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: white;
+
+            .header__main--nav--menu {
+                display: none;
+            }
+
+        }
+        .etnodim-logo {
+            max-width: 100px; 
+         }
+
+         .nav__language__select, .nav__currency__select, .header__main__menu--item {
+            display: none;
+          }
+
+          .nav-cart-icon {
+            width: 20px;
+            height: 20px;
+          }
+          
+           .nav-cart-icon {
+            width: 20px;
+            height: 20px;
+          }
+    }
+     
+}

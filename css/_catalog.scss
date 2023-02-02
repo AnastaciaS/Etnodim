@@ -1,0 +1,285 @@
+.catalog__section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+    .catalog__section--top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%; 
+        max-height: 50px;
+       
+        
+        .catalog-heading {
+            font-family: 'Rubik';
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #000000;
+          }
+
+        .catalog__sorting--container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+
+          .filter-text-mob {
+            display: none;
+          }
+          
+          .icon-squares-4 {
+            width: 14px;
+            height: 14px;
+          }
+          
+          .icon-square-9 {
+            width: 14px;
+            height: 14px;
+          }
+          
+          .sorting-text {
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 20px;
+            color: #000000;
+          }
+      }
+
+      .catalog-heading-mob {
+        display: none;
+      }
+
+    .catalog__container {
+        padding: 55px 0 0 0;
+        margin: 0 auto;
+        
+        .catalog__container-raw {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding-bottom: 50px;
+
+            .catalog-item {
+                display: block;
+                width: auto;
+                height: auto;
+                max-width: 800px;
+                width: auto;
+                
+                .catalog-image {
+                    width: auto;
+                    height: auto;
+                    max-width: 800px;
+                  }
+                  
+                  .item-description-text {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 170%;
+                    color: #000000;
+                    padding-top: 10px;
+                    margin: 0;
+                  }
+                  
+                  .item-price-text {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 170%;
+                    color: #000000;
+                    padding-top: 5px;
+                    margin: 0;
+                  }
+
+              }
+          }
+      }
+
+      .catalog-bottom-controllers {
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+        padding: 0 0 130px 0;
+        position: relative;
+
+        .show__more-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .show__more-button {
+                border: none;
+                background-color: transparent;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+                color: #000000;
+                text-decoration: underline;
+                display: flex;
+                align-items: center;
+                gap: 7px;
+               }
+
+               .reload-icon {
+                width: 18px;
+                height: 18px;
+              }
+
+          }
+
+        .pagination-container {
+            position: absolute;
+
+            .pagination-item {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 170%;
+                color: #000000;
+              }
+
+              .pagination-item-active {
+                color: #B0B0B0;
+              }
+
+          }
+
+      }
+}
+
+
+
+@media (max-width: 600px) {
+   
+    .catalog__section {
+        display: block;
+        width: 100%;
+        padding: 0;
+
+        .catalog__section__top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: auto; 
+            max-height: 50px;
+
+            .catalog__sorting--container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              }
+
+              .filter-text-mob {
+                display: flex;
+                font-family: 'Raleway';
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 20px;
+                color: #000000;
+              }
+
+              .sorting-text {
+                font-family: 'Raleway';
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 20px;
+                color: #000000;
+              }
+
+              .icon-squares-4 {
+                display: none;
+              }
+              
+              .icon-square-9 {
+                display: none;
+              }
+          }
+
+          .catalog-heading {
+            display: none;
+          }
+
+          .catalog-heading-mob {
+            display: flex;
+            justify-content: flex-end;
+            font-family: 'Rubik';
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #000000;
+            padding: 10px;
+          }
+
+        .catalog__container {
+            padding-top: 20px;
+            flex-wrap: wrap;
+
+            .catalog__container-raw {
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+                padding-bottom: 20px;
+
+                .catalog__item {
+                    display: block;
+                    width: auto;
+                    height: auto;
+
+                    .item__description__text {
+                        font-weight: 300;
+                        font-size: 12px;
+                        line-height: 18px;
+                        padding-top: 5px;
+                        margin: 0;
+                      }
+                  }
+
+                .catalog-heading-mob {
+                    display: flex;
+                    justify-content: flex-end;
+                    font-family: 'Rubik';
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 140%;
+                    text-transform: uppercase;
+                    color: #000000;
+                    padding: 10px;
+                  }
+              }
+
+              .catalog-bottom-controllers {
+                display: flex;
+                justify-content: center;
+                padding: 30px 0 50px 0;
+
+                .show__more-button {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                   font-weight: 600;
+                   font-size: 14px;
+                   line-height: 16px;
+                   text-transform: uppercase;
+                   color: #000000;
+                   text-decoration: underline;
+                  }
+                  
+                  .reload-icon {
+                    width: 18px;
+                    height: 18px;
+                  }
+                  
+                  
+              }
+
+              .pagination-container {
+                display: none;
+              }
+         }
+      }  
+}
+
+

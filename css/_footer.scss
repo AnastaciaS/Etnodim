@@ -1,0 +1,182 @@
+.arrow-up {
+    position: absolute;
+    z-index: 9;
+    left: 700px;
+    height: 55px;
+    transform: translate(0, -30px);
+    overflow: hidden;
+  }
+
+    .footer--container {
+        width: 100%;
+        height: auto;
+        background: #F4F4F4;
+        position: relative;
+        overflow: hidden;
+        
+        .footer-logo {
+            text-align: center;
+            width: 100%;
+            padding: 70px 0 40px 0;
+          }
+          
+        .footer-inner-block {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 80px 70px 80px;
+
+            .footer__list {
+                padding: 0 50px 0 0;
+
+                .footer__list--nav-item {
+                    padding: 0 0 10px 0;
+                  }
+
+                .footer__list--nav-item-red {
+                    padding-top: 50px;
+                  }
+              }
+
+              .footer__social {
+                display: flex;
+                gap: 23px;
+                padding: 17px 0 67px 0;
+
+                .nav-icon {
+                    max-width: 22px;
+                    max-height: 22px;
+                  }
+              }       
+          }
+
+        .footer__contacts-mob {
+            display: none;
+          }
+
+        .footer-nav {
+            display: flex;
+          }
+      }
+
+
+
+@media (max-width: 800px) {
+   
+    .arrow-up {
+        position: absolute;
+        z-index: 9;
+        left: 190px;
+        height: 45px;
+        transform: translate(0, -30px);
+        overflow: hidden;
+      }
+
+    .footer--container {
+        width: 100%;
+        height: auto;
+        background: #F4F4F4;
+        position: relative;
+        overflow: hidden;
+
+        .footer-logo {
+            text-align: center;
+            width: 100%;
+            padding: 20px 0 20px 0;
+          }
+
+          .footer-inner-block {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px 20px 10px;
+
+            .footer__list {
+                padding: 0 50px 0 0;
+
+                .footer__list--nav-item {
+                    padding: 0 0 10px 0;
+                  }
+                  
+                  .footer__list--nav-item-red {
+                    padding-top: 20px;
+                  }
+
+                  .list-nav-text {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 120%;
+                  }
+                  
+                  .list-nav-text-red {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 170%;
+                    color: #DA1F39;
+                  }
+                  
+                  .list-nav-text-underline {
+                    text-decoration: underline;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 170%;
+                    color: #000000;
+                  }
+              }
+
+              .footer__social {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                column-gap: 10px;
+                row-gap: 10px;
+                padding-top: 10px;
+
+                .nav-icon {
+                    max-width: 20px;
+                    max-height: 20px;
+                  }
+              }  
+          }
+
+          .footer__contacts-mob {
+            display: block;
+            padding-left: 10px;
+          }
+
+          .footer-nav {
+            display: flex;
+          }
+
+          .footer__contacts {
+            display: none;
+          }
+          
+          .footer__list-nav-item-web {
+            display: none;
+          }
+      }
+    }
+
+    @media (max-width: 900px) {
+   
+        .arrow-up {
+            position: absolute;
+            z-index: 9;
+            left: 230px;
+            height: 45px;
+            transform: translate(0, -30px);
+            overflow: hidden;
+          }
+        }
+
+    @media (max-width: 600px) {
+
+        .arrow-up {
+            position: absolute;
+            z-index: 9;
+            width: 16px;
+            height: 30px;
+            left: 230px;
+            height: 55px;
+            transform: translate(0, -30px);
+            overflow: hidden;
+          }
+    }
